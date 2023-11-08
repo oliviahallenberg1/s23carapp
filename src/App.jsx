@@ -11,7 +11,7 @@ function App() {
       <AppBar
         position="static">
         <Typography variant="h6"
-          color="pink">
+          color="black">
           Carshop
         </Typography>
         <Carlist />

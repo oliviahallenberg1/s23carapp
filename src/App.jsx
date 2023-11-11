@@ -1,6 +1,6 @@
 
 //import './App.css'
-import Carlist from './Carlist'
+import Carlist from './components/Carlist'
 import { AppBar, Typography } from "@mui/material";
 // import { Typography } from '@mui/material/styles/createTypography';
 
@@ -9,9 +9,8 @@ function App() {
   return (
     <>
       <AppBar
-        position="static">
-        <Typography variant="h6"
-          color="black">
+        position="absolute">
+        <Typography variant="h6">
           Carshop
         </Typography>
         <Carlist />

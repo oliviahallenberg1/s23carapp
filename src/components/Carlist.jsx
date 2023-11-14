@@ -134,7 +134,7 @@ export default function Carlist() {
 
                 <Snackbar
                     open={open}
-                    autoHideDuration={3000}
+                    autoHideDuration={3001}
                     onClose={() => setOpen(false)}
                     message={msg} >
                 </Snackbar>
